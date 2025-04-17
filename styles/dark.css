@@ -1,0 +1,54 @@
+@media (prefers-color-scheme: dark) {
+
+    nav.navbar {
+        background-color: #252525 !important;
+        color: white !important;
+    }
+
+    nav.navbar .navbar-brand {
+        color: #ffffff !important;
+    }
+
+    nav.navbar .navbar-brand:hover {
+        color: rgba(255, 255, 255, 0.9) !important;
+    }
+
+    nav.navbar .navbar-brand:focus, nav.navbar .navbar-brand:active {
+        color: rgba(255, 255, 255, 0.75) !important;
+    }
+
+    nav.navbar .nav-link {
+        color: white !important;
+    }
+
+    nav.navbar .nav-link:hover {
+        color: white !important;
+    }
+
+    nav.navbar .nav-link:focus, nav.navbar .nav-link:active {
+        color: white !important;
+    }
+
+    nav.navbar .navbar-text {
+        color: rgba(255,255,255,.5);
+    }
+
+    html, body {
+        background: black !important;
+        color: white !important;
+    }
+
+    .list-group-item {
+        background-color: #151515 !important;
+    }
+
+    .card-header, .card-footer {
+        background-color: rgba(255,255,255,.03) !important;
+        border-bottom: 1px solid rgba(255,255,255,.125) !important;
+    }
+
+    .card {
+        background-color: #151515 !important;
+    }
+
+}

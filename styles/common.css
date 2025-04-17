@@ -1,0 +1,49 @@
+@import "dark.css";
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/Nunito-VariableFont_wght.ttf");
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("/fonts/Nunito-Italic-VariableFont_wght.ttf");
+    font-weight: 125 950;
+    font-stretch: 75% 125%;
+    font-style: italic;
+}
+
+* {
+    font-family: "Nunito", sans-serif !important;
+}
+
+body, html {
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+center {
+    display: block;
+    text-align: center;
+}
+
+.list-group-item.d-flex.justify-content-between.align-items-center {
+    flex-wrap: wrap;
+}
+
+.big-head {
+    font-size: 64px;
+}
+
+big {
+    font-size: 64px;
+    vertical-align: middle;
+}
+
+nav.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+    background-color: #333 !important;
+}
